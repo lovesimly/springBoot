@@ -35,6 +35,7 @@ public class TestController {
 
     @RequestMapping("/test2")
     public String test2() {
+    	System.out.println("loveyou");
         return "Hello,ok";
     }
 }
