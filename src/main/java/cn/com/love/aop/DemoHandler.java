@@ -7,16 +7,11 @@ import java.lang.reflect.Proxy;
 public class DemoHandler implements InvocationHandler {
     
     private Object subject;
-    
-    
-    
-    
 
     public DemoHandler(Object subject) {
         super();
         this.subject = subject;
     }
-
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         System.out.println("before");
         
