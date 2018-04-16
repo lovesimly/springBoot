@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ImportResource;
 @ImportResource("classpath:biz/*.xml")
 public class Application {
     //branche testxxxddd
-    //ss x f  ssfxx
+    //fuck
     public static void main(String[] args) {
         SpringApplication.run(Application.class,args);
     }
