@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ImportResource;
 @SpringBootApplication
 @ImportResource("classpath:biz/*.xml")
 public class Application {
-    //branche test
+    //branche testxxx
     public static void main(String[] args) {
         SpringApplication.run(Application.class,args);
     }
