@@ -27,6 +27,10 @@ public class ArrTest {
 
     }
 
+
+    /**
+     *
+     */
     @Test
     public void method(){
         int[] a = {1, 3, 5, 6, 9};
@@ -34,6 +38,7 @@ public class ArrTest {
         int b_index=0;
 
         for (int i = 0; i <a.length ; i++) {
+
             for (int j = b_index; j <b.length ; j++) {
                 if(a[i]<b[b_index]){
                    break;
@@ -54,4 +59,30 @@ public class ArrTest {
 
 
     }
-}
+
+    @Test
+    public void method2(){
+        int[] a = {1, 3, 5, 6, 9};
+        int[] b = {2, 3, 6, 8, 10, 19};
+        int b_index=0;
+        for (int i = 0; i < a.length; i++) {
+            for (int j = b_index; j <b.length ; j++) {
+                if(a[i]<b[j]){
+                    break;
+
+                }
+                if(a[i]==b[j]){
+                    System.out.println(a[i]);
+                    b_index++;
+                    break;
+
+                }
+                if (a[i]>b[j]){
+                    b_index++;
+
+                }
+
+            }
+
+        }
+}}
